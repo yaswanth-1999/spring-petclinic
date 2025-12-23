@@ -36,6 +36,16 @@
         <java.version>11</java.version> 
 
         <cobertura.version>2.7</cobertura.version>
+        <org.mapstruct.version>1.4.2.Final</org.mapstruct.version>
+        <mockito-inline.version>4.3.1</mockito-inline.version>
+        <metrics-core.version>4.2.8</metrics-core.version>
+        <HikariCP.version>5.0.1</HikariCP.version>
+        <h2.version>2.1.210</h2.version>
+        <springdoc-openapi-ui.version>1.6.5</springdoc-openapi-ui.version>
+        <jacoco.version>0.8.7</jacoco.version>
+        <skip.unit.tests>false</skip.unit.tests>
+        <skip.integration.tests>true</skip.integration.tests>
+        <jacoco.haltOnFailure>false</jacoco.haltOnFailure>
     </properties>
 
     <dependencyManagement>
